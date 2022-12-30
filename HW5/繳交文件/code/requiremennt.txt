@@ -1,0 +1,5 @@
+numpy
+cv2
+pyqt6
+matplotlib
+sys
