@@ -1,0 +1,5 @@
+PyQt5
+matplotlib
+cv2
+numpy
+os
