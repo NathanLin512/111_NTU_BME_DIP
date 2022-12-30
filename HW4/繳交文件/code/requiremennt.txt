@@ -1,0 +1,7 @@
+numpy
+cv2
+pyqt6
+math
+time
+sys
+os

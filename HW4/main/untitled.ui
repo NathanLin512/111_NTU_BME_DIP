@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>mainwindow</class>
+ <widget class="QWidget" name="mainwindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>R11631029林正浩</string>
+  </property>
+  <widget class="QPushButton" name="button_openfile">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>150</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Open File</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button_FFTandIFFT">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>80</y>
+     <width>150</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>FFT and IFFT</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button_idealLow">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>150</y>
+     <width>150</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ideal Low</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button_idealHigh">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>220</y>
+     <width>150</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ideal High</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button_GaussianLow">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>290</y>
+     <width>150</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Gaussian Low</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button_GaussianHigh">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>360</y>
+     <width>150</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Gaussian High</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button_ButterworthLow">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>430</y>
+     <width>150</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Butterworth Low</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button_ButterworthHigh">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>500</y>
+     <width>150</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Butterworth High</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_gammaH">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>10</y>
+     <width>100</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_gammaH">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>10</y>
+     <width>80</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>gammaH</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_2">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>50</y>
+     <width>100</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_gammaL">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>50</y>
+     <width>80</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>gammaL</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_D0">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>90</y>
+     <width>100</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_D0">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>90</y>
+     <width>80</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>D0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button_Homomorphic">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>570</y>
+     <width>150</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Homomorphic</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button_motion">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>640</y>
+     <width>150</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Motion blur</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button_MotionandNoise">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>710</y>
+     <width>150</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Motion+Noise</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_photo_1">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>10</y>
+     <width>256</width>
+     <height>256</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_photo_2">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>276</y>
+     <width>256</width>
+     <height>256</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_photo_3">
+   <property name="geometry">
+    <rect>
+     <x>716</x>
+     <y>10</y>
+     <width>256</width>
+     <height>256</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_photo_4">
+   <property name="geometry">
+    <rect>
+     <x>716</x>
+     <y>276</y>
+     <width>256</width>
+     <height>256</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_originfig">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>130</y>
+     <width>128</width>
+     <height>128</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
